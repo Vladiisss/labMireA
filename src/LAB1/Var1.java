@@ -1,11 +1,10 @@
 package LAB1;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
 
-public class Ypr1 {
+public class Var1 {
 
     public static void main(String[] args) {
 
