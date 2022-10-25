@@ -1,5 +1,7 @@
 package LAB2;
 
+import LAB3.Dog;
+
 public class Circle {
 
     private double radius;
@@ -15,6 +17,7 @@ public class Circle {
     public Circle(double radius, String color) {
         this.color = color;
         this.radius = radius;
+
     }
 
     public double getRadius() {

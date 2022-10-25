@@ -1,38 +1,23 @@
 package LAB5;
 
-
 import javax.swing.*;
-import java.awt.*;
-import java.util.Scanner;
 
-public class Var2 extends JFrame {
-
-    String filename;
-    Image img = new ImageIcon(filename).getImage();
+public class Var2 extends JFrame
+{
+    Var2() {
 
 
-    public Var2() {
-
-        super("Var1");
-        setSize(800, 1000);
+        super("Image Hedgehog");
+        // Сделать масштабированным!
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        ImageIcon icon = new ImageIcon("D:\\vkycno.png");
 
-
-        Scanner in = new Scanner(System.in);
-        filename = in.nextLine();
-
-
-
+        add(new JLabel(icon));
+        pack();
+        setVisible(true);
     }
-
-    public void paintComponent(Graphics g){
-        g.drawImage(img, 0, 0, null);
-    }
-
-
-    public static void main(String[] args) {
-        new Var2().setVisible(true);
+    public static void main(String args[])
+    {
+        new Var2();
     }
 }
-
-

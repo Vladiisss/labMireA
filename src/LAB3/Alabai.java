@@ -1,6 +1,6 @@
 package LAB3;
 
-public class Alabai extends  Dog {
+public class Alabai extends Dog {
 
 
     public Alabai(int massa, int age, String name, String color) {

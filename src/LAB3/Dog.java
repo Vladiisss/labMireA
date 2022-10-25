@@ -32,9 +32,6 @@ abstract public class Dog {
                 '}';
     }
 
-
-
-
     public int getMassa() {
         return massa;
     }
