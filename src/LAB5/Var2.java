@@ -1,6 +1,7 @@
 package LAB5;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Var2 extends JFrame
 {
@@ -10,7 +11,7 @@ public class Var2 extends JFrame
         super("Image Hedgehog");
         // Сделать масштабированным!
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        ImageIcon icon = new ImageIcon("D:\\vkycno.png");
+        ImageIcon icon = new ImageIcon("C:\\Users\\vladk\\Pictures\\Обои\\958580.jpg");
 
         add(new JLabel(icon));
         pack();
