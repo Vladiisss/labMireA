@@ -21,6 +21,7 @@ public class GuessGame extends JFrame {
         super("Guessing game");
         setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        getContentPane().setBackground(Color.getHSBColor(0, 23.93617f, 73.72549f));
 
         setLayout(new FlowLayout());
         add(jtf);
@@ -28,6 +29,9 @@ public class GuessGame extends JFrame {
         jtf.setBackground(Color.darkGray);
         jtf.setFont(fnt);
         add(button);
+        button.setForeground(Color.white);
+        button.setBackground(Color.darkGray);
+        button.setFont(fnt);
 
         Random random = new Random();
         targetNum = random.nextInt(21);
